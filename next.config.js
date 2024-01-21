@@ -9,6 +9,14 @@ const nextConfig = {
         port: '9000',
         pathname: '/cms-dashboard/**',
       },
+      {
+        protocol: 'https',
+        hostname: 's3.us-east-1.amazonaws.com'
+      },
+      {
+        protocol: 'https',
+        hostname: 'landpay-staging.s3.us-east-1.amazonaws.com'
+      }
     ],
   },
 }
